@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7913748-7901-4a52-9444-ea106ab80bf3" name="Changes" comment="subo codigo creado con uml mas modelo uml">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelo/Getion de empleados.vpp" beforeDir="false" afterPath="$PROJECT_DIR$/modelo/Getion de empleados.vpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelo/imagen diagrama.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/modelo/imagen diagrama.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GestionDeEmpleados/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GestionDeEmpleados/Empleado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GestionDeEmpleados/EmpleadoAsalariado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GestionDeEmpleados/EmpleadoAsalariado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GestionDeEmpleados/EmpleadoPorHoras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GestionDeEmpleados/EmpleadoPorHoras.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GestionDeEmpleados/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GestionDeEmpleados/Main.java" afterDir="false" />
+    <list default="true" id="a7913748-7901-4a52-9444-ea106ab80bf3" name="Changes" comment="subo codido con main y constructores creados mas prueba de ejecucion">
+      <change afterPath="$PROJECT_DIR$/prueba de ejecucion/prueba ejecucion.bmp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,12 +81,20 @@
       <option name="project" value="LOCAL" />
       <updated>1694188091498</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="subo codido con main y constructores creados mas prueba de ejecucion">
+      <created>1694378323640</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694378323640</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="subo rama main" />
     <MESSAGE value="subo codigo creado con uml mas modelo uml" />
-    <option name="LAST_COMMIT_MESSAGE" value="subo codigo creado con uml mas modelo uml" />
+    <MESSAGE value="subo codido con main y constructores creados mas prueba de ejecucion" />
+    <option name="LAST_COMMIT_MESSAGE" value="subo codido con main y constructores creados mas prueba de ejecucion" />
   </component>
 </project>
