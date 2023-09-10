@@ -2,7 +2,7 @@ package GestionDeEmpleados;
 
 public abstract class Empleado {
 	private String nombre;
-	private Object salarioBase;
+	private int salarioBase;
 
 	public String getNombre() {
 		return this.nombre;
@@ -12,17 +12,18 @@ public abstract class Empleado {
 		this.nombre = nombre;
 	}
 
-	public void getSalarioBase() {
+	public int getSalarioBase() {
 		return this.salarioBase;
 	}
 
-	public void setSalarioBase(Object salarioBase) {
+	public void setSalarioBase(int salarioBase) {
 		this.salarioBase = salarioBase;
 	}
 
-	public Empleado() {
-		throw new UnsupportedOperationException();
+	public Empleado(String nombre, int salarioBase) {
+		this.nombre = nombre;
+		this.salarioBase = salarioBase;
 	}
 
-	public abstract void calcularSalario();
+	public abstract int calcularSalario();
 }

@@ -20,11 +20,13 @@ public class EmpleadoPorHoras extends Empleado {
 		this.salarioPorHoras = salarioPorHoras;
 	}
 
-	public EmpleadoPorHoras() {
-		throw new UnsupportedOperationException();
+	public EmpleadoPorHoras(String nombre, int horasTrabajadas, int salarioPorHoras) {
+		super(nombre,0);
+		this.horasTrabajadas = horasTrabajadas;
+		this.salarioPorHoras = salarioPorHoras;
 	}
 
-	public void calcularSalario() {
-		throw new UnsupportedOperationException();
+	public int calcularSalario() {
+		return salarioPorHoras * horasTrabajadas;
 	}
 }

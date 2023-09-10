@@ -2,11 +2,12 @@ package GestionDeEmpleados;
 
 public class EmpleadoAsalariado extends Empleado {
 
-	public EmpleadoAsalariado() {
-		throw new UnsupportedOperationException();
+	public EmpleadoAsalariado(String nombre, int salarioBase) {
+		super(nombre, salarioBase);
 	}
 
-	public void calcularSalario() {
-		throw new UnsupportedOperationException();
+	public int calcularSalario() {
+
+		return getSalarioBase();
 	}
 }
