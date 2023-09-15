@@ -7,7 +7,6 @@ public class EmpleadoAsalariado extends Empleado {
 	}
 
 	public int calcularSalario() {
-
 		return getSalarioBase();
 	}
 }
